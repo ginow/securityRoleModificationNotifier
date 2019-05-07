@@ -1,3 +1,3 @@
-# securityRoleModificationNotifier
+# CRM Security Role addition or removal notifier
 
-![alt text](https://raw.githubusercontent.com/ginow/securityRoleModificationNotifier/tool.png)
+![alt text](https://github.com/ginow/securityRoleModificationNotifier/blob/master/tool.png)
