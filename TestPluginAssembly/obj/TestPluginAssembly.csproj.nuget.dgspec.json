@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj",
+        "projectName": "TestPluginAssembly",
+        "projectPath": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "Microsoft.CrmSdk.CoreAssemblies": {
+              "target": "Package",
+              "version": "[9.0.2.9, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

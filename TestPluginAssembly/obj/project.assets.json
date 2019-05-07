@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.9": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "System.DirectoryServices",
+          "System.DirectoryServices.AccountManagement",
+          "System.IdentityModel",
+          "System.Runtime.Serialization",
+          "System.Security",
+          "System.ServiceModel",
+          "System.ServiceModel.Web",
+          "System.Web",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.9": {
+      "sha512": "ZiDHqCNwkCHABXJEes1XAXjmKM2zFD9zRo00Vh11lDkOH2YCB4QWehmf1T4ErCJLCjMwE7OhvtqbLHQ2IBRL2Q==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/LicenseTerms.docx",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net462/Microsoft.Xrm.Sdk.dll",
+        "lib/net462/Microsoft.Xrm.Sdk.xml",
+        "lib/net462/Other Redistributable.txt",
+        "lib/net462/Third Party Notices for Dynamics 365 SDK.docx",
+        "microsoft.crmsdk.coreassemblies.9.0.2.9.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj",
+      "projectName": "TestPluginAssembly",
+      "projectPath": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\TestPluginAssembly.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\TestPluginAssembly\\TestPluginAssembly\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "dependencies": {
+          "Microsoft.CrmSdk.CoreAssemblies": {
+            "target": "Package",
+            "version": "[9.0.2.9, )"
+          }
+        }
+      }
+    }
+  }
+}

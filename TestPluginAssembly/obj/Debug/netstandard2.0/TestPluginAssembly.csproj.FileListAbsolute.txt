@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\netstandard2.0\TestPluginAssembly.deps.json
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\netstandard2.0\TestPluginAssembly.dll
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\netstandard2.0\TestPluginAssembly.csprojAssemblyReference.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\netstandard2.0\TestPluginAssembly.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\netstandard2.0\TestPluginAssembly.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\netstandard2.0\TestPluginAssembly.AssemblyInfo.cs

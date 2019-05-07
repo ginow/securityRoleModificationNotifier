@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\net462\TestPluginAssembly.dll
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.csprojAssemblyReference.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.AssemblyInfo.cs
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\net462\TestPluginAssembly.pdb
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\net462\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\bin\Debug\net462\Microsoft.Xrm.Sdk.dll
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.csproj.CopyComplete
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.dll
+C:\Users\user\source\repos\TestPluginAssembly\TestPluginAssembly\obj\Debug\net462\TestPluginAssembly.pdb
