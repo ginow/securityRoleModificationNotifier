@@ -1,7 +1,7 @@
 # CRM Security Role addition or removal notifier
 
 ## Requirement
-Whenever some addition or removal is done on some user's profile an email notification should be sent to a particular person with the details of change.
+Whenever some addition or removal of security roles is done on some user's profile an email notification should be sent to a particular person with the details of change.
 
 # Implementation
 In CRM systems whenever a role is added or removed "Associate" and "Disassociate" plugin messages are triggered. These messages are not only triggered for roles, but for other entities as well.
