@@ -92,7 +92,7 @@ namespace TestPluginAssembly
 
                     // below code is for calling flow http request
                     tracingService.Trace("creating httpwebrequest");
-                    var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://prod-05.centralindia.logic.azure.com:443/workflows/f071a38183784deb8732d67623e9925e/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jFjqYd8p1hQUo5HbbpmNmiI63xVWAKLtmwWOk8K2p2k");
+                    var httpWebRequest = (HttpWebRequest)WebRequest.Create("http://url");
                     httpWebRequest.ContentType = "application/json";
                     httpWebRequest.Method = "POST";
 
