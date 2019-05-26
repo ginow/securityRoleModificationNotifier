@@ -18,5 +18,5 @@ Note: Here Gmail was used, others can also be used.
 
 ### Screenshot of Http Request triggered flow
 Note: Here also Gmail was used, others can also be used.
-![Flow screenshot](https://github.com/ginow/securityRoleModificationNotifier/blob/master/httprequestFlow.png)
+![Flow screenshot](https://github.com/ginow/securityRoleModificationNotifier/blob/master/httprequestFlow.PNG)
 
