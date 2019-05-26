@@ -99,7 +99,7 @@ namespace TestPluginAssembly
                     using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
                     {
                         tracingService.Trace("in streamwriter");
-                        string json ="{\"to\": \"developer.worstfellow@gmail.com\", \"subject\": \"test subject\", \"body\": \"email body\"}";
+                        string json ="{\"to\": \"xyz@gmail.com\", \"subject\": \"test subject\", \"body\": \"email body\"}";
                         
                         streamWriter.Write(json);
                         tracingService.Trace("written");
