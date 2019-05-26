@@ -1,4 +1,6 @@
-﻿using System;
+using System;
+using System.IO;
+using System.Net;
 using System.ServiceModel;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
@@ -87,6 +89,33 @@ namespace TestPluginAssembly
                         }
                     }
                     service.Create(flowemail);
+
+                    // below code is for calling flow http request
+                    tracingService.Trace("creating httpwebrequest");
+                    var httpWebRequest = (HttpWebRequest)WebRequest.Create("https://prod-05.centralindia.logic.azure.com:443/workflows/f071a38183784deb8732d67623e9925e/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=jFjqYd8p1hQUo5HbbpmNmiI63xVWAKLtmwWOk8K2p2k");
+                    httpWebRequest.ContentType = "application/json";
+                    httpWebRequest.Method = "POST";
+
+                    using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+                    {
+                        tracingService.Trace("in streamwriter");
+                        string json ="{\"to\": \"developer.worstfellow@gmail.com\", \"subject\": \"test subject\", \"body\": \"email body\"}";
+                        
+                        streamWriter.Write(json);
+                        tracingService.Trace("written");
+                        streamWriter.Flush();
+                        tracingService.Trace("flushed");
+                        streamWriter.Close();
+                        tracingService.Trace("closed");
+                    }
+
+                    var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+                    using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+                    {
+                        var result = streamReader.ReadToEnd();
+                        tracingService.Trace(result);
+                    }
+
                 }
             }
 
